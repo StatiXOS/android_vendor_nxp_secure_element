@@ -116,6 +116,7 @@ cc_binary {
     name: "android.hardware.secure_element@1.2-service.p73",
     relative_install_path: "hw",
     init_rc: ["1.2/android.hardware.secure_element@1.2-service.p73.rc"],
+    vintf_fragments: ["1.2/android.hardware.secure_element@1.2-service.p73.xml"],
     proprietary: true,
     defaults: ["hidl_defaults"],
     srcs: [
